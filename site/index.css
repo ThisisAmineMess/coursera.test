@@ -1,9 +1,32 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.list {
+	background:url() no-repeat center blueviolet;
+	height: 500px;
+	width: 500px;
+	position: relative;
+	margin-left: 430px;
+}
+
 p {
 	color:Blue;
 	text-align: center;
+	margin-bottom: 0;
 }
+
 li {
+	width: auto;
 	list-style: none;
+}
+ul {
+	padding: 10px;
+	border:2px solid black;
+	margin-top:0 ;
+	height: 100%;
 }
 
 a { 
@@ -15,7 +38,7 @@ a:link  {
 	background-color: lightblue;
 	display: block;
 	border:1px solid black;
-	width:300px;
+	width:100px;
 	text-align: center;
 	margin-bottom: 1px;
 }
@@ -25,3 +48,28 @@ a:hover , a:active  {
 	color:green;
 
 }
+
+a:visited {
+	color : darkviolet;
+}
+
+.list1 {
+	position: relative;
+	top: 450px;
+	right: ;
+}
+
+/*large devices*/
+@media (min-width:1200px) {
+
+}
+/*medium devices*/
+@media (min-width:992px) and (max-width:1199px){
+	p {
+		color: darkred;
+	}
+
+}
+
+
+
