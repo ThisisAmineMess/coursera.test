@@ -58,6 +58,44 @@ a:visited {
 	top: 450px;
 	right: ;
 }
+.para {
+	border:2px solid red;
+	height: 100px;
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#p1 , #p2 , #p3 , #p4 {
+	
+	border:1px solid black;
+	width:20%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#p1 {
+	position: relative;
+	margin-top: 0;
+	right: 78px;
+}
+
+
+#p2 {
+		position: relative;
+		left: 100px;
+	
+
+}
+
+#p3 {
+
+}
+
+#p4 {
+
+}
+
+
 
 /*large devices*/
 @media (min-width:1200px) {
